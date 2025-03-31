@@ -1,0 +1,62 @@
+.control {
+  font-weight: 500;
+  display: block;
+  width: 100%;
+  padding: var(--mantine-spacing-xs) var(--mantine-spacing-md);
+  color: var(--mantine-color-text);
+  font-size: var(--mantine-font-size-sm);
+  font-weight: 700;
+
+  @mixin hover {
+    background-color: light-dark(var(--mantine-color-gray-0), var(--mantine-color-dark-7));
+    color: light-dark(var(--mantine-color-black), var(--mantine-color-dark-0));
+  }
+
+  &[data-active] {
+
+    &,
+    &:hover {
+      background-color: var(--mantine-color-brand-9);
+      color: var(--mantine-color-brand-0);
+    }
+  }
+}
+
+.link {
+  font-weight: 500;
+  display: block;
+  text-decoration: none;
+  padding: var(--mantine-spacing-xs) var(--mantine-spacing-md);
+  padding-left: 35px;
+  font-size: var(--mantine-font-size-sm);
+  color: light-dark(var(--mantine-color-gray-7), var(--mantine-color-dark-0));
+
+  @mixin hover {
+    background-color: light-dark(var(--mantine-color-brand-5), var(--mantine-color-brand-0));
+  }
+
+  a {
+    font-size: var(--mantine-font-size-sm);
+    color: light-dark(var(--mantine-color-gray-7), var(--mantine-color-dark-0));
+  }
+
+  &[data-active] {
+
+    &,
+    &:hover {
+      background-color: var(--mantine-color-brand-5);
+      color: var(--mantine-color-brand-0);
+      font-weight: 700;
+    }
+
+    a {
+      background-color: var(--mantine-color-brand-5);
+      color: var(--mantine-color-brand-0);
+      font-weight: 700;
+    }
+  }
+}
+
+.chevron {
+  transition: transform 200ms ease;
+}

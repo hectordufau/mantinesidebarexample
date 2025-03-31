@@ -1,4 +1,4 @@
-# Mantine Next.js template
+# Mantine Next.js template - Sidebar Example
 
 This is a template for [Next.js](https://nextjs.org/) app router + [Mantine](https://mantine.dev/).
 If you want to use pages router instead, see [next-pages-template](https://github.com/mantinedev/next-pages-template).
@@ -35,4 +35,3 @@ This template comes with the following features:
 - `storybook` – starts storybook dev server
 - `storybook:build` – build production storybook bundle to `storybook-static`
 - `prettier:write` – formats all files with Prettier
-# RGPetFrontend

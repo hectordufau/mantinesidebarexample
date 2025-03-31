@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/2e9394f4-4c38-4eb7-8d39-456424978ee5)
+
 # Mantine Next.js template - Sidebar Example
 
 This is a template for [Next.js](https://nextjs.org/) app router + [Mantine](https://mantine.dev/).
